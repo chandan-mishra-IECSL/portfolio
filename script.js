@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function() {
         // Toggle nav transparency on mobile
         if (window.innerWidth <= 768) {
             if (isActive) {
-                nav.style.background = 'rgba(10, 17, 35, 0.95)';
+                nav.style.background = 'rgba(255, 255, 255, 0.96)';
             } else {
                 setTimeout(() => {
                     nav.style.background = '';
@@ -359,9 +359,9 @@ document.addEventListener('DOMContentLoaded', function() {
         
         window.addEventListener('scroll', () => {
             if (window.scrollY > 50) {
-                nav.style.background = 'rgba(10, 17, 35, 0.95)';
+                nav.style.background = 'rgba(255, 255, 255, 0.96)';
                 nav.style.backdropFilter = 'blur(25px) saturate(180%)';
-                nav.style.boxShadow = '0 10px 30px rgba(0, 0, 0, 0.2)';
+                nav.style.boxShadow = '0 10px 30px rgba(15, 23, 42, 0.12)';
             } else {
                 nav.style.background = '';
                 nav.style.backdropFilter = '';
